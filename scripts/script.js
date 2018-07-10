@@ -3,7 +3,7 @@ function myFunction() {
     var top = document.getElementById("up");
     var mid = document.getElementById("mid");
     var low = document.getElementById("low");
-    var list = document.getElementById("list")
+    var list = document.getElementById("mobnav")
     top.classList.toggle("up2");
     mid.classList.toggle("mid2");
     low.classList.toggle("low2");

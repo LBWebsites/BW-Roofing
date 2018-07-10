@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.slickhome').slick({
+    $('#slickhome').slick({
       autoplay: true,
       arrows: false,
       infinite: true

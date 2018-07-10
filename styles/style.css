@@ -14,10 +14,15 @@ body {
 }
 
 #logo {
-    width: 60%;
-    max-width: 455px; /* Fix this for desktop */
+    display: block;
+    width: 50%;
+    max-width: 350px; /* Fix this for desktop */
     height: auto;
-    margin: 5px 20%;
+    margin: 7px auto;
+}
+
+#desknav {
+    display: none;
 }
 
 nav ul{
@@ -54,7 +59,7 @@ nav ul li.active {
 }
 
 .container {
-    height: 50px;
+    height: 45px;
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -75,7 +80,7 @@ nav ul li.active {
 }
 
 .up {
-    margin-top: 12.5px;
+    margin-top: 10px;
 }
 
 .up2 {
@@ -112,27 +117,26 @@ nav ul li.active {
     background-color: rgba(7,169,169, 0.7);
     /* border-radius: 1rem; */
     width: 100%;
-    height: 600px;
+    /* height: 600px; */
+    height: auto;
 }
 .ihsec2 {
     display: inline-block;
-    height: 550px;
+    /* height: 550px; */
+    height: auto;
     width: 90%;
-    margin-top: 25px;
-    margin-left: 5%;
+    /* margin-top: 25px; */
+    margin: 25px 5%;
+    /* margin-left: 5%; */
     background: white;
     border-radius: 10px;
-    opacity: 1.0;
+    opacity: .9;
 }
 
 .hsec1, .hsec3 {
     background-color: white;
-    height: 500px;
+    height: auto;
     width: 100%;
-}
-
-.hsec1 {
-    height: 700px;
 }
 
 .slick-slide {
@@ -144,18 +148,129 @@ nav ul li.active {
  }
 
  .introtxt {
-     text-align: center;
+    text-align: center;
     font-size: 25px;
     margin: 0px;
-    padding: 1.5vh 10px 0 10px;
+    padding: 30px 10px 0 10px;
     line-height: 1;
     color: #007e7e;
     font-weight: bold;
     font-style: italic;
  }
 
+.hmlist {
+    margin: 30px 0;
+}
+
+ .hmlist li {
+     background-color: #007e7e;
+     text-align: center;
+     color: #fff;
+     margin: 10px 15px 10px 15px;
+     width: auto;
+     padding: 15px 0;
+     font-size: 20px;
+     border-radius: 10px;
+ }
+ 
+ .hmlist li:hover {
+     background-color: #a3a3a3;
+ }
+
+ .hometxt {
+    text-align: center;
+    font-size: 20px;
+    margin: 0px;
+    padding: 30px 15px 0 15px;
+    line-height: 1.2;
+    color: #757575;
+    font-weight: 500
+ }
+
+.subhometxt {
+    text-align: center;
+    font-size: 18px;
+    color: #757575;
+    margin-top: 10px;
+}
+
+ .bigtxt {
+    font-size: 25px;
+ }
+
+ .bottxt {
+     padding-bottom: 30px;
+ }
+
+ .bw, .imp {
+     color: #007e7e;
+     font-weight: bold;
+ }
+ 
+ .homesyms {
+     padding-left: 20px;
+     float: left;
+     margin-top: 2px;
+ }
+
+ .vertline {
+     height: 55px;
+     width: 2px;
+     background: white;
+     float: left;
+     margin-top: -15px;
+     margin-left: 20px;
+ }
+
  footer {
      background: #007e7e;
      height: 75px;
      width: 100%;
+     opacity: 0.5;
+ }
+
+ @media (min-width: 992px) {
+
+    header {
+        display: inline-block;
+        width: 100%;
+    }
+
+     #logo {
+         width: 200px;
+         margin: 10px;
+         float: left;
+     }
+     .mainarea {
+         width: 70vw;
+         margin-left: 15vw;
+         margin-top: 30px;
+     }
+     #slickhome div {
+         overflow: hidden;
+         border-radius: 10px;
+     }
+     .background, .hsec2 {
+         border-radius: 10px;
+     }
+
+     nav {
+         display: none;
+     }
+
+     #desknav {
+         display: block;
+         overflow: hidden;
+         float: right;
+     }
+
+     #desknav a {
+         display: block;
+         float: left;
+         list-style: none;
+         margin: 30px 20px;
+         font-size: 25px;
+         color: #007e7e;
+     }
+
  }
