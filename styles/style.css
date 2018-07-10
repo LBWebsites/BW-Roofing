@@ -16,7 +16,7 @@ body {
 #logo {
     display: block;
     width: 50%;
-    max-width: 350px; /* Fix this for desktop */
+    max-width: 350px;
     height: auto;
     margin: 7px auto;
 }
@@ -271,6 +271,25 @@ nav ul li.active {
          margin: 30px 20px;
          font-size: 25px;
          color: #007e7e;
+     }
+    
+     .hmlist li {
+         max-width: 400px;
+         margin: 10px auto;
+     }
+
+     .hsec1 {
+         margin-bottom: 90px;
+     }
+     .background {
+         width: 100vw;
+         margin-bottom: 70px;
+         margin-left: -15vw;
+     }
+
+     .ihsec2 {
+         width: 500px;
+         margin-left: calc(50vw - 250px);
      }
 
  }
