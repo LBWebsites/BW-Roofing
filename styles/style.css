@@ -277,6 +277,13 @@ nav ul li.active {
     border-radius: 10px;
 }
 
+.titlearea.pr {
+    background-image: url(../images/pr3s.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+}
+
  footer {
      background: #007e7e;
      height: 75px;
