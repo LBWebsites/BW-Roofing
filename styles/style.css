@@ -178,7 +178,8 @@ nav ul li.active {
  }
 
  .hometxt {
-    text-align: center;
+    text-align: justify;
+    hyphens: auto;
     font-size: 20px;
     margin: 0px;
     padding: 30px 15px 0 15px;
@@ -195,6 +196,7 @@ nav ul li.active {
 }
 
  .bigtxt {
+    text-align: center;
     font-size: 25px;
  }
 
@@ -277,11 +279,32 @@ nav ul li.active {
     border-radius: 10px;
 }
 
+/* Pitched Roofing */
 .titlearea.pr {
-    background-image: url(../images/pr3s.jpg);
+    position: relative;
+    background-image: url(../images/pr3sb.png);
     background-position: center;
     background-size: cover;
     height: 150px;
+    text-align: center;
+}
+
+.titlearea.pr h2 {
+    color: white;
+    font-size: 26px;
+    opacity: .95;
+    padding-top: 62px;
+}
+
+.servicetxt {
+    font-size: 20px;
+    text-align: justify;
+    hyphens: auto;
+    margin: 0px;
+    padding: 30px 15px 30px 15px;
+    line-height: 1.2;
+    color: #757575;
+    font-weight: 500;
 }
 
  footer {
